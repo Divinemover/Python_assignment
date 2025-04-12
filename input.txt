@@ -1,0 +1,5 @@
+line.strip() removes any extra spaces or \n
+.split(" - ") splits the line into two parts
+f"Name: {name}, Age: {age}" is an f-string that formats the output
+print(line)        # includes '\n'
+print(line.strip())  # removes '\n'
